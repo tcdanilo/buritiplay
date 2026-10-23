@@ -77,7 +77,7 @@ def md(text):
     return "\n".join(out)
 
 PRIVACY = {
-"en": ("privacy.html", "Privacy Policy", "Last updated: October 22, 2026", """
+"en": ("privacy.html", "Privacy Policy", "Last updated: October 23, 2026", """
 Sniff & Sort is a game by Buriti Play, the studio of Danilo Costa Tiago ("we"). This policy explains what data the game uses, why, and how you can delete it.
 
 ## 1. Data we collect
@@ -86,32 +86,33 @@ Sniff & Sort is a game by Buriti Play, the studio of Danilo Costa Tiago ("we"). 
 - **Purchases:** which items you bought in the game. Payment is handled by Apple; we never receive your card details.
 - **Game usage:** events such as starting and finishing a level, so we can see where the game is too hard and improve it.
 - **Device:** the code used to send notifications (if you allow them), the time zone, the language and the game version.
-We do not collect your location, contacts, photos, real name, email or phone number.
+- **Ads:** the game shows ads from Google AdMob. Google collects the device's advertising identifier (only if you allow tracking on your iPhone), the IP address (which gives an approximate location), which ads you saw and tapped, and diagnostic data about the ads.
+We do not collect your precise location, contacts, photos, real name, email or phone number.
 
 ## 2. How we use it
-To make the game work (saving and recovering progress, rankings, friends, the tournament and purchases), to send the notifications you allowed, to prevent cheating in the rankings and to improve the game. We do not sell your data and, in this version, we do not use your data for advertising.
+To make the game work (saving and recovering progress, rankings, friends, the tournament and purchases), to send the notifications you allowed, to prevent cheating in the rankings and to improve the game. Google uses the ad data above to show ads, measure them and prevent fraud. If you allow tracking, the ads can be based on your interests; if not, you still see ads, just not personalized ones. We do not sell your data.
 
 ## 3. What other players see
 Your nickname, avatar, level reached, stars and points appear in the rankings and to your in-game friends.
 
 ## 4. Companies that help us
-The data is stored with services we hire, which process it only to provide their service to us: Supabase (server and database), Google Firebase (usage analytics and notifications), RevenueCat (purchase records) and Apple (Game Center and App Store). These servers may be located outside your country.
+The data is stored with services we hire, which process it only to provide their service to us: Supabase (server and database), Google Firebase (usage analytics and notifications), RevenueCat (purchase records), Google AdMob (ads) and Apple (Game Center and App Store). Google's policy for ads is at policies.google.com/technologies/partner-sites. These servers may be located outside your country.
 
 ## 5. How long we keep it
 For as long as your account exists. When you delete your account, we delete your profile, progress, results, friends and the devices linked to it.
 
 ## 6. Your rights
-You can delete your account and your data at any time inside the game, in Profile › Delete account. To ask for a copy of your data, correct it or ask any question, write to [EMAIL]. You can also turn off notifications in your iPhone settings. These rights follow the LGPD (Brazil) and the GDPR (European Union).
+You can delete your account and your data at any time inside the game, in Profile › Delete account. To ask for a copy of your data, correct it or ask any question, write to [EMAIL]. You can also turn off notifications in your iPhone settings, and stop ad tracking in Settings › Privacy & Security › Tracking. These rights follow the LGPD (Brazil) and the GDPR (European Union).
 
 ## 7. Children
 The game is not directed at children under 13 and does not knowingly collect data from children. If you believe a child has sent us data, write to [EMAIL] and we will delete it.
 
 ## 8. Changes
-If this policy changes (for example, when the game starts showing ads), we will update this page and the date at the top.
+If this policy changes, we will update this page and the date at the top.
 
 **Contact:** Buriti Play, Danilo Costa Tiago, [EMAIL].
 """),
-"pt": ("privacidade.html", "Política de Privacidade", "Última atualização: 22 de outubro de 2026", """
+"pt": ("privacidade.html", "Política de Privacidade", "Última atualização: 23 de outubro de 2026", """
 O Sniff & Sort é um jogo da Buriti Play, estúdio de Danilo Costa Tiago ("nós"). Esta política explica quais dados o jogo usa, para quê e como você pode apagá-los.
 
 ## 1. Dados que coletamos
@@ -120,32 +121,33 @@ O Sniff & Sort é um jogo da Buriti Play, estúdio de Danilo Costa Tiago ("nós"
 - **Compras:** quais itens você comprou dentro do jogo. O pagamento é feito pela Apple; nós não recebemos dados do seu cartão.
 - **Uso do jogo:** eventos como início e fim de fase, para entender onde o jogo está difícil demais e melhorá-lo.
 - **Aparelho:** o código para enviar notificações (se você permitir), o fuso horário, o idioma e a versão do jogo.
-Não coletamos sua localização, contatos, fotos, nome real, e-mail ou telefone.
+- **Anúncios:** o jogo mostra anúncios do Google AdMob. O Google coleta o identificador de publicidade do aparelho (só se você permitir o rastreamento no iPhone), o endereço IP (que dá uma localização aproximada), quais anúncios você viu e tocou, e dados de diagnóstico dos anúncios.
+Não coletamos sua localização exata, contatos, fotos, nome real, e-mail ou telefone.
 
 ## 2. Para que usamos
-Para o jogo funcionar (salvar e recuperar o progresso, rankings, amigos, torneio e compras), para mandar os avisos que você permitiu, para evitar trapaças nos rankings e para melhorar o jogo. Não vendemos seus dados e, nesta versão, não usamos seus dados para publicidade.
+Para o jogo funcionar (salvar e recuperar o progresso, rankings, amigos, torneio e compras), para mandar os avisos que você permitiu, para evitar trapaças nos rankings e para melhorar o jogo. O Google usa os dados de anúncios acima para mostrar anúncios, medi-los e evitar fraudes. Se você permitir o rastreamento, os anúncios podem seguir os seus interesses; se não permitir, você continua vendo anúncios, só que não personalizados. Não vendemos seus dados.
 
 ## 3. O que os outros jogadores veem
 Seu apelido, avatar, fase alcançada, estrelas e pontos aparecem nos rankings e para os seus amigos no jogo.
 
 ## 4. Empresas que nos ajudam
-Os dados ficam guardados com serviços contratados por nós, que os tratam só para nos prestar o serviço: Supabase (servidor e banco de dados), Google Firebase (análise de uso e envio de notificações), RevenueCat (registro das compras) e Apple (Game Center e App Store). Esses servidores podem ficar fora do Brasil.
+Os dados ficam guardados com serviços contratados por nós, que os tratam só para nos prestar o serviço: Supabase (servidor e banco de dados), Google Firebase (análise de uso e envio de notificações), RevenueCat (registro das compras), Google AdMob (anúncios) e Apple (Game Center e App Store). A política do Google para anúncios está em policies.google.com/technologies/partner-sites. Esses servidores podem ficar fora do Brasil.
 
 ## 5. Por quanto tempo guardamos
 Enquanto a sua conta existir. Quando você apaga a conta, apagamos o seu perfil, progresso, resultados, amigos e aparelhos ligados a ela.
 
 ## 6. Seus direitos
-Você pode apagar a sua conta e os seus dados a qualquer momento dentro do jogo, em Perfil › Apagar conta. Para pedir uma cópia dos seus dados, corrigi-los ou tirar dúvidas, escreva para [EMAIL]. Você também pode desligar as notificações nos ajustes do iPhone. Esses direitos seguem a LGPD (Brasil) e o GDPR (União Europeia).
+Você pode apagar a sua conta e os seus dados a qualquer momento dentro do jogo, em Perfil › Apagar conta. Para pedir uma cópia dos seus dados, corrigi-los ou tirar dúvidas, escreva para [EMAIL]. Você também pode desligar as notificações nos ajustes do iPhone e parar o rastreamento de anúncios em Ajustes › Privacidade e Segurança › Rastreamento. Esses direitos seguem a LGPD (Brasil) e o GDPR (União Europeia).
 
 ## 7. Crianças
 O jogo não é voltado para crianças menores de 13 anos e não coleta, de propósito, dados de crianças. Se você acha que uma criança nos mandou dados, escreva para [EMAIL] e apagamos.
 
 ## 8. Mudanças
-Se esta política mudar (por exemplo, quando o jogo passar a mostrar anúncios), atualizamos esta página e a data no topo.
+Se esta política mudar, atualizamos esta página e a data no topo.
 
 **Contato:** Buriti Play, Danilo Costa Tiago, [EMAIL].
 """),
-"es": ("privacidad.html", "Política de Privacidad", "Última actualización: 22 de octubre de 2026", """
+"es": ("privacidad.html", "Política de Privacidad", "Última actualización: 23 de octubre de 2026", """
 Sniff & Sort es un juego de Buriti Play, el estudio de Danilo Costa Tiago ("nosotros"). Esta política explica qué datos usa el juego, para qué y cómo puedes eliminarlos.
 
 ## 1. Datos que recopilamos
@@ -154,28 +156,29 @@ Sniff & Sort es un juego de Buriti Play, el estudio de Danilo Costa Tiago ("noso
 - **Compras:** qué artículos compraste en el juego. El pago lo gestiona Apple; nunca recibimos los datos de tu tarjeta.
 - **Uso del juego:** eventos como empezar y terminar un nivel, para ver dónde el juego es demasiado difícil y mejorarlo.
 - **Dispositivo:** el código para enviar notificaciones (si lo permites), la zona horaria, el idioma y la versión del juego.
-No recopilamos tu ubicación, contactos, fotos, nombre real, correo electrónico ni teléfono.
+- **Anuncios:** el juego muestra anuncios de Google AdMob. Google recopila el identificador de publicidad del dispositivo (solo si permites el rastreo en tu iPhone), la dirección IP (que da una ubicación aproximada), qué anuncios viste y tocaste, y datos de diagnóstico de los anuncios.
+No recopilamos tu ubicación exacta, contactos, fotos, nombre real, correo electrónico ni teléfono.
 
 ## 2. Para qué los usamos
-Para que el juego funcione (guardar y recuperar el progreso, rankings, amigos, torneo y compras), para enviar los avisos que permitiste, para evitar trampas en los rankings y para mejorar el juego. No vendemos tus datos y, en esta versión, no usamos tus datos para publicidad.
+Para que el juego funcione (guardar y recuperar el progreso, rankings, amigos, torneo y compras), para enviar los avisos que permitiste, para evitar trampas en los rankings y para mejorar el juego. Google usa los datos de anuncios anteriores para mostrar anuncios, medirlos y evitar fraudes. Si permites el rastreo, los anuncios pueden basarse en tus intereses; si no, sigues viendo anuncios, solo que no personalizados. No vendemos tus datos.
 
 ## 3. Qué ven los demás jugadores
 Tu apodo, avatar, nivel alcanzado, estrellas y puntos aparecen en los rankings y para tus amigos en el juego.
 
 ## 4. Empresas que nos ayudan
-Los datos se guardan en servicios que contratamos, que los tratan solo para prestarnos su servicio: Supabase (servidor y base de datos), Google Firebase (análisis de uso y envío de notificaciones), RevenueCat (registro de compras) y Apple (Game Center y App Store). Estos servidores pueden estar fuera de tu país.
+Los datos se guardan en servicios que contratamos, que los tratan solo para prestarnos su servicio: Supabase (servidor y base de datos), Google Firebase (análisis de uso y envío de notificaciones), RevenueCat (registro de compras), Google AdMob (anuncios) y Apple (Game Center y App Store). La política de Google para anuncios está en policies.google.com/technologies/partner-sites. Estos servidores pueden estar fuera de tu país.
 
 ## 5. Cuánto tiempo los guardamos
 Mientras exista tu cuenta. Cuando eliminas tu cuenta, eliminamos tu perfil, progreso, resultados, amigos y los dispositivos vinculados a ella.
 
 ## 6. Tus derechos
-Puedes eliminar tu cuenta y tus datos en cualquier momento dentro del juego, en Perfil › Eliminar cuenta. Para pedir una copia de tus datos, corregirlos o hacer cualquier pregunta, escribe a [EMAIL]. También puedes desactivar las notificaciones en los ajustes del iPhone. Estos derechos siguen la LGPD (Brasil) y el RGPD (Unión Europea).
+Puedes eliminar tu cuenta y tus datos en cualquier momento dentro del juego, en Perfil › Eliminar cuenta. Para pedir una copia de tus datos, corregirlos o hacer cualquier pregunta, escribe a [EMAIL]. También puedes desactivar las notificaciones en los ajustes del iPhone y detener el rastreo de anuncios en Ajustes › Privacidad y seguridad › Rastreo. Estos derechos siguen la LGPD (Brasil) y el RGPD (Unión Europea).
 
 ## 7. Niños
 El juego no está dirigido a menores de 13 años y no recopila, a sabiendas, datos de niños. Si crees que un niño nos envió datos, escribe a [EMAIL] y los eliminaremos.
 
 ## 8. Cambios
-Si esta política cambia (por ejemplo, cuando el juego empiece a mostrar anuncios), actualizaremos esta página y la fecha de arriba.
+Si esta política cambia, actualizaremos esta página y la fecha de arriba.
 
 **Contacto:** Buriti Play, Danilo Costa Tiago, [EMAIL].
 """),
